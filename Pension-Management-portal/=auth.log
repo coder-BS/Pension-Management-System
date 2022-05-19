@@ -1,0 +1,41 @@
+2022-05-19 18:09:26.691  INFO [,,] 25240 --- [restartedMain] c.c.PensionManagementPortalApplication   : Starting PensionManagementPortalApplication using Java 1.8.0_291 on LTIN302120 with PID 25240 (C:\Users\893882\Downloads\PensionManagementSystem-masterf\Pension-Management-portal\target\classes started by 893882 in C:\Users\893882\Downloads\PensionManagementSystem-masterf\Pension-Management-portal)
+2022-05-19 18:09:26.715  INFO [,,] 25240 --- [restartedMain] c.c.PensionManagementPortalApplication   : No active profile set, falling back to default profiles: default
+2022-05-19 18:09:26.829  INFO [,,] 25240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-19 18:09:26.829  INFO [,,] 25240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-19 18:09:29.023  INFO [,,] 25240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:09:29.054  INFO [,,] 25240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2022-05-19 18:09:29.838  INFO [,,] 25240 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b6efebc2-bb64-3a73-b714-eba9624e96b9
+2022-05-19 18:09:31.970  INFO [,,] 25240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9085 (http)
+2022-05-19 18:09:31.986  INFO [,,] 25240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 18:09:31.987  INFO [,,] 25240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-05-19 18:09:32.214  INFO [,,] 25240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 18:09:32.215  INFO [,,] 25240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5384 ms
+2022-05-19 18:09:32.362  INFO [,,] 25240 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 18:09:32.755  INFO [,,] 25240 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 18:09:32.762  INFO [,,] 25240 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0a96739f-f4de-4891-8c07-5e370640d3df'
+2022-05-19 18:09:33.417  INFO [,,] 25240 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 18:09:33.477  INFO [,,] 25240 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-19 18:09:33.718  INFO [,,] 25240 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-19 18:09:33.911  INFO [,,] 25240 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-19 18:09:34.451  INFO [,,] 25240 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 18:09:34.462  INFO [,,] 25240 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 18:09:34.516  WARN [,,] 25240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-19 18:09:34.742  WARN [,,] 25240 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 18:09:37.107  INFO [,,] 25240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9085 (http) with context path ''
+2022-05-19 18:09:37.282  INFO [,,] 25240 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-19 18:09:37.302  INFO [,,] 25240 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-19 18:09:37.315  INFO [,,] 25240 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-19 18:09:37.612  INFO [,,] 25240 --- [restartedMain] c.c.PensionManagementPortalApplication   : Started PensionManagementPortalApplication in 12.156 seconds (JVM running for 13.182)
+2022-05-19 18:11:16.459  INFO [,,] 25240 --- [http-nio-9085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 18:11:16.460  INFO [,,] 25240 --- [http-nio-9085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 18:11:16.463  INFO [,,] 25240 --- [http-nio-9085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-05-19 18:11:16.823  INFO [,e4ebd6492b5f671f,e4ebd6492b5f671f] 25240 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 18:11:18.379  INFO [,e4ebd6492b5f671f,e4ebd6492b5f671f] 25240 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : END - doLogin
+2022-05-19 18:11:18.740  INFO [,509c9eadce1d505c,509c9eadce1d505c] 25240 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 18:11:19.655  INFO [,509c9eadce1d505c,509c9eadce1d505c] 25240 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - allDetail
+2022-05-19 18:11:26.301  INFO [,f09fa635f415fff7,f09fa635f415fff7] 25240 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 18:11:26.343  INFO [,f09fa635f415fff7,f09fa635f415fff7] 25240 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : END - allDetail
+2022-05-19 18:12:22.132  INFO [,217286ab6b4c0d4e,217286ab6b4c0d4e] 25240 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 18:12:22.866  INFO [,217286ab6b4c0d4e,217286ab6b4c0d4e] 25240 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - getPensionDetail
+2022-05-19 18:13:40.614  INFO [,e42eec77d3afaf7c,e42eec77d3afaf7c] 25240 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 18:13:40.645  INFO [,e42eec77d3afaf7c,e42eec77d3afaf7c] 25240 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : END - getStatusCode
